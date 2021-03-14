@@ -8,7 +8,7 @@ df2 = pd.read_csv(CSV_FILE_PATH_2)
 x = df1['Step']
 y1 = df1['Value']
 y2 = df2['Value']
-
+#tttttttttttt
 plt.plot(x, y1, label = "original version loss")  # 绘制x,y的折线图
 plt.plot(x, y2, label = "v0.01 version loss")  # 绘制x,y的折线图
 plt.legend()
